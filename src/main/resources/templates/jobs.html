@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavJam Coffee House - Jobs</title>
+    <link rel="stylesheet" href="./css/javajam.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header-flex">
+            <img id="header-image" src="./images/javajammini.jpg" width="175" height="128" alt="JavaJam Logo">
+            <h1>JavaJam Coffee House</h1>
+          </header>
+        <div class="flex-container">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/music">Music</a></li>
+                <li><a href="/jobs">Jobs</a></li>
+                <li><a href="/gear">Gear</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herocouch"></div>
+            
+            <h2> Jobs at JavaJam</h2>
+            
+            <p>Want to work at JavaJam? Fill out the form below to start your application. </p>
+            <p>Required fields are marked with an asterisk (*).</p>
+            <form name="jobs" method="POST" action="jobsprocessing.html">
+                <label for="myName">*Name:</label>
+                <input type="text" name="myName" id="myName" required>
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+                <label for="myExperience">*Experience:</label>
+                <textarea name="myExperience" id="myExperience" cols="20" rows="2"  required></textarea>
+                <input type="submit" name="mySubmit" id="mySubmit" value="Apply Now">
+            </form>
+                
+                <br><br><br>
+        </main>
+    </div>
+        <footer>
+           <br> Copyright &copy; 2020 JavaJam Coffee House
+            <br>Email: 
+            <a href="mailto:supportteam@jjch.com">shankar@ghimire.com</a>
+        </footer>
+    </div>
+</body>
+</html>

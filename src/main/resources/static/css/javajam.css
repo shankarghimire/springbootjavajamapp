@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/background.gif");
+  background-color: #fcebb6;
+  color: #221811;
+  font-family: verdana, Arial, sans-serif;
+}
+
+.flex-container {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: row;
+  /* border: 3px solid red; */
+}
+
+#header-logo {
+  /* flex: 1 1 auto; */
+
+  /* flex-basis: auto; */
+  /* background-image: url("../_images/javajamlogo.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* display: inline-block; */
+  /* width: 140px; */
+  /* border: 2px solid blue; */
+}
+
+header {
+  flex-direction: row;
+  /* flex: 1 1 auto; */
+  height: 150px;
+  /* background-image: url("../_images/javajamlogo.jpg"); */
+  /* background-size: 190px 200px; */
+  background-color: #d2b48c;
+  background-repeat: no-repeat;
+  display: block;
+}
+#header-image {
+  /* border: 2px solid red; */
+}
+.header-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin-left: 0;
+  /* padding-top: 45px;
+  padding-left: 220px; */
+  font-size: 3em;
+  /* border: 2px solid red; */
+}
+
+h4 {
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-bottom: 0.25em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 0;
+  clear: left;
+}
+nav {
+  /* flex: 2; */
+  /* flex-basis: 200px; */
+  /*
+  flex-grow: 1;
+  flex-shrink: 1; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  /* float: left; */
+  /* width: 200px; */
+  /* width: 350px; */
+  display: block;
+  /* border: 2px solid blue; */
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+nav ul li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #fef6c2;
+}
+
+nav a:visited {
+  color: #d2b48c;
+}
+
+nav a:hover {
+  display: block;
+  color: #cc9933;
+  border-bottom: 2px solid #ffffff;
+}
+main {
+  width: 100%;
+  /* flex: 8; */
+  /* flex-basis:9 ;
+  flex-grow: 1;
+  flex-shrink: 1; */
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  /* margin-left: 200px; */
+  background-color: #fef6c2;
+  display: block;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding-bottom: 0;
+
+  /* border: 3px solid red; */
+}
+
+main h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+form {
+  padding: 2em;
+  /* border: 1px solid red; */
+}
+
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input {
+  display: block;
+  margin-bottom: 1em;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+#mySubmit {
+  margin-left: 9.5em;
+}
+
+footer {
+  background-color: #d2b48c;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+  /* border-top: 2px solid #221811; */
+  /* clear: both; */
+  display: block;
+  margin-left: 0;
+}
+
+#wrapper {
+  background-color: #231814;
+  /* background-color: green; */
+  min-width: 900px;
+  max-width: 1280px;
+  width: 80%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 3px 3px 3px #000000;
+  /* border: 3px solid blue; */
+}
+
+#heroroad {
+  background-image: url("../images/heroroad.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#heromugs {
+  background-image: url("../images/heromugs.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#heroguitar {
+  background-image: url("../images/heroguitar.jpg");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+/* .floatleft {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+} */
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: auto;
+}
+
+#mobile {
+  display: none;
+}
+
+#desktop {
+  display: inline;
+}
+
+.item {
+  background-color: #faf9f7;
+  margin: 2em 3em;
+  width: 80%;
+  padding: 1em;
+  overflow: auto;
+  border: 1px solid red;
+}
+.gear-item {
+  float: right;
+}
+
+.btn-addToCart {
+  margin-left: 50px;
+}
+#herocouch {
+  height: 250px;
+  background-image: url("../images/herocouch.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#jobs-main {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  /* border: 2px solid red; */
+}
+
+/* media query set for tablet */
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-image: none;
+  }
+
+  #wrapper {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    border-bottom: 5px solid #fef6c2;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+  }
+
+  nav {
+    /* float: none; */
+    width: auto;
+    margin-top: 0;
+    padding-top: 0;
+    /* margin: 10px; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.3em;
+    height: 50px;
+    /* border: 2px solid red; */
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav a {
+    width: 5em;
+    font-weight: bold;
+    border-style: none;
+  }
+
+  main {
+    margin: 0;
+    font-size: 90%;
+  }
+  #heroroad,
+  #heromugs,
+  #heroguita {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* media controller for mobile phone */
+@media only screen and (max-width: 768px) {
+  header {
+    background-image: url("../images/javajammini.jpg");
+    height: 100px;
+  }
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  nav ul {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    margin: 0;
+    display: block;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+
+    width: auto;
+    border-bottom: 1px solid #fef6c2;
+  }
+
+  main {
+    padding: 1px;
+  }
+
+  h2 {
+    padding: 0.5em 0 0 0.5em;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
+  .header-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  #header-image {
+    display: none;
+  }
+  .details {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #heroroad,
+  #heromugs,
+  #heroguitar {
+    background-image: none;
+    height: auto;
+  }
+
+  #mobile {
+    display: inline;
+  }
+  #desktop {
+    display: none;
+  }
+  #herocouch {
+    /* height: 250px; */
+    /* background-image: url("../_images/herocouch.jpg"); */
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    display: none;
+  }
+}
